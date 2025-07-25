@@ -1,0 +1,10 @@
+[package]
+name = "first_smart_contract_on_sui"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+impatient = "0x0"
