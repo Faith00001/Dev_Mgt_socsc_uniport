@@ -1,10 +1,7 @@
 [package]
-name = "first_smart_contract_on_sui"
-version = "0.0.0"
-edition = "2024"
-
-[dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+name = "dev_mgt"
+version = "0.0.1"
+authors = ["Faith Innocent"]
 
 [addresses]
-impatient = "0x0"
+dev_mgt = "0x9a2241639890adf016d7daf2aba34f5a8f097b70bf87da3d1565b2a0fd8d744d" # Replace with your Sui testnet wallet address
